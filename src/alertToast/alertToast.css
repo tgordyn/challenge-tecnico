@@ -1,0 +1,27 @@
+#alertCntr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 320px;
+  height: 74.39px;
+  background: #FEE7E9;
+  border: 1px solid #FFB1B8;
+  border-radius: 6px;
+}
+
+#iconAndDescription {
+  display: flex;
+  flex-direction: row;
+  font-family: Encode Sans;
+  font-size: 16px;
+  color: #3C3C3B;
+  margin: 0 16px 0 16px;
+  align-items: center;
+}
+
+#iconAndDescription > svg {
+  margin-right: 5%;
+  width: 26px;
+  height: 22px;
+}

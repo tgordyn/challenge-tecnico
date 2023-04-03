@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#firstCol {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  margin-top: 6%;
 }
 
-.App-link {
-  color: #61dafb;
+#logoCtr {
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: row;
+  font-family: Rubik;
+  font-style: normal;
+  font-size: 26px;
+  align-items: flex-end;
+  color: #3b3b3b;
+  margin-left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#logoCtr > span {
+  margin: auto 0;
+}
+
+#logoCtr > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 2%;
+}
+
+#firstColContent {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+#rectangle1 {
+  width: 50%;
+  height: 100vh;
+  top: 0px;
+  background: #e1c6dc;
+  border-radius: 0px 108px 0px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  z-index: -2;
+}
+
+#imgBcnd {
+  width: 758px;
+  height: 582px;
+  position: fixed;
+  left: 38%;
+  top: 20%;
+  z-index: -1;
+}
+
+/* styles for Mobile view, max screen width of 480px: */
+@media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  #firstCol {
+    width: 100%;
+    align-items: center;
   }
+
+  #logoCtr {
+    margin-left: 0;
+  }
+
+  #firstColContent {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #fff;
+    width: 100vw;
+    margin: 70% 0 0 0;
+    height: 50%;
+    position: absolute;
+  }
+
+  #rectangle1 {
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    height: 60vh;
+    position: absolute;
+    margin-top: 40%;
+  }
+
+  #imgBcnd {
+    width: 60%;
+    height: 25%;
+    top: 12%;
+    left: 19%;
+    position: absolute;
+  }
+
 }
