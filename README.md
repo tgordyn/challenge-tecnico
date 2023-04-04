@@ -1,6 +1,6 @@
 # Desafío de código Technisys
 
-En este proyecto se realizó una web responsive para una aplicación bancaria siguiendo los [requerimientos] (https://docs.google.com/document/d/1TwYAkyg5cQlzIUwd2JgdbxYnxAIbekJP-6tqP_EbcHc/edit#) y los [diseños provistos] (https://www.figma.com/file/23wUs8klLodiU0IvJVGXpx/). Consiste de una primera vista simulando un form de Login, otra vista para Recuperación de contraseña y dos más básicas implementadas para el Home y para la confirmación de recuperación de los datos.
+En este proyecto se realizó una web responsive para una aplicación bancaria siguiendo los [requerimientos](https://docs.google.com/document/d/1TwYAkyg5cQlzIUwd2JgdbxYnxAIbekJP-6tqP_EbcHc/edit#) y los [diseños provistos](https://www.figma.com/file/23wUs8klLodiU0IvJVGXpx/). Consiste de una primera vista simulando un form de Login, otra vista para Recuperación de contraseña y dos más básicas implementadas para el Home y para la confirmación de recuperación de los datos.
 
 
 ## Herramientas técnicas aplicadas
