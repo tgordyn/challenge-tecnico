@@ -21,7 +21,7 @@ const App = () => {
             BNK
           </span>
         </div>
-        <div id="firstColContent">
+        <div id="firstColContent" className='colStyles'>
           <Routes>
             <Route path="/" element={<LoginForm />} />
             <Route
@@ -46,6 +46,7 @@ const App = () => {
       <div id="rectangle1" />
       <img
         id="imgBcnd"
+        className="imgBcndStyles"
         src="https://s3-alpha-sig.figma.com/img/5173/5b64/6b9974597fe78132613bde50abf75449?Expires=1681084800&Signature=hD-Bzmt4g270hj~J9R-6ZZA3BcJtDpNwf~xKU9KEs4kZBtIqnMhTehMXMwwOobc6MwOBoRJ0TKuir3xUB4mHKYv1IQEKuC6sbQ9YpWtm4KFE42ATY27Jf-i-JYf87JzfAi21doIDBc~6DC0hlNWFuHWXPU~WyjzOcODSDsRCtfHysXDaa2tRw~ebQ3OT2ejqAozrxFdbEXTta~xOP7n0Fvmo1DUr5Kg6y0p2qWxi0kAchHzLfmZtVhtlX68RafwadsVUVh265J3IKI6gEDKZTTMFfIc8EyzKjWkYnKNtXCNXG6CAjqXA~9YmWfF2S3-o5g~6Tjz8ScSqWYpyPgSGGA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         alt="background"
       />

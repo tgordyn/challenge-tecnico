@@ -62,8 +62,8 @@ const RecoveryForm = () => {
   return (
     <>
       <FormContainer>
-        <FormTitle>Olvidé mi contraseña</FormTitle>
         <Form onSubmit={handleSubmit}>
+          <FormTitle>Olvidé mi contraseña</FormTitle>
           <Label htmlFor="selectDocument">
             Tipo de documento <span>&#42;</span>
           </Label>

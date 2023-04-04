@@ -33,7 +33,7 @@
   margin-right: 2%;
 }
 
-#firstColContent {
+.colStyles {
   width: max-content;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
   z-index: -2;
 }
 
-#imgBcnd {
+.imgBcndStyles {
   width: 758px;
   height: 582px;
   position: fixed;
@@ -75,13 +75,17 @@
     margin-left: 0;
   }
 
-  #firstColContent {
+  .colStyles {
     border-radius: 40px 40px 0px 0px;
     background-color: #fff;
     width: 100vw;
     margin: 70% 0 0 0;
     height: 50%;
     position: absolute;
+  }
+
+  .colErrorStyles {
+    margin: 55% 0 0 0;
   }
 
   #rectangle1 {
@@ -92,12 +96,17 @@
     margin-top: 40%;
   }
 
-  #imgBcnd {
+  .imgBcndStyles {
     width: 60%;
-    height: 25%;
+    height: 30%;
     top: 12%;
     left: 19%;
     position: absolute;
   }
 
+  .imgBcndErrorStyles {
+    width: 40%;
+    height: 20%;
+    left: 30%;
+  }
 }

@@ -48,6 +48,11 @@ export const BtnContainer = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  
+  @media only screen and (max-width: 480px) {
+    margin-top: 20%;
+  }
+
 `;
 
 export const StyledButton = styled(SubmitButton)`

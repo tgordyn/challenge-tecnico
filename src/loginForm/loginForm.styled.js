@@ -1,23 +1,26 @@
 import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.fieldset`
   width: auto;
   font-family: Lato;
   font-style: normal;
   line-height: 19px;
   display: flex;
   flex-direction: column;
+  border: none;
 
   @media only screen and (max-width: 480px) {
     margin: 8%;
+    align-items: center;
   }
 `;
 
-export const FormTitle = styled.h2`
+export const FormTitle = styled.legend`
   font-weight: 700;
   font-size: 26px;
   margin-bottom: 10%;
+  
 
   @media only screen and (max-width: 480px) {
     font-size: 24px;
@@ -115,8 +118,8 @@ ${sharedStyles}
     color: #8A3879;
 
     :hover {
-    color: #FFFF;
-  }
+      color: #FFFF;
+    }
 
     :active {
       color: #FFFF;
