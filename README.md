@@ -1,6 +1,6 @@
 # Code Challenge
 
-In this project a responsive web application for a banking app was created following the <a href="./public/instructions/Code Challenge for UI Devs - Login.pdf">requirements</a> and the designs provided for <a href="./public/instructions/designs desktop views.pdf">desktop</a>, <a href="./public/instructions/designs mobile views.pdf">mobile view</a> and their <a href="./public/instructions/designs components.pdf">components</a>. It consists of a first view simulating a Login form, another view for password recovery, and two basic views implemented for the Home and for the confirmation of data recovery.
+In this project a responsive web application for a banking app was created following the <a href="./public/instructions/Desafio de código para UI Devs - Login.pdf">requirements</a> and the designs provided for <a href="./public/instructions/designs desktop views.pdf">desktop</a>, <a href="./public/instructions/designs mobile views.pdf">mobile view</a> and their <a href="./public/instructions/designs components.pdf">components</a>. It consists of a first view simulating a Login form, another view for password recovery, and two basic views implemented for the Home and for the confirmation of data recovery.
 
 
 ## Technical Resources
