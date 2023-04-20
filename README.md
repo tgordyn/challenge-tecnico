@@ -33,7 +33,14 @@ name: "pepe",
 pass: "hola"
 }
 
+## Project Screen Shots
 
+* <a href="./public/screen shots/Login.png">Login View</a>
+* <a href="./public/screen shots/Login Alert.png">Login with Alert View</a>
+* <a href="./public/screen shots/Pass recovery.png">Password Recovery View</a>
+* <a href="./public/screen shots/Mobile login.png">Mobile Login View</a>
+* <a href="./public/screen shots/Mobile login Alert.png">Mobile Login with Alert View</a>
+* <a href="./public/screen shots/Mobile Pass recovery.png">Login View</a>
 
 
 
