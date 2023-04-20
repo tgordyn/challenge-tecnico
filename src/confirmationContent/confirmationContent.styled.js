@@ -7,7 +7,7 @@ export const ContentDiv = styled.div`
   align-items: center;
   text-align: center;
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
     width: auto;
     margin: 10%;
   }
@@ -15,7 +15,7 @@ export const ContentDiv = styled.div`
 
 export const ContentH1 = styled.h1`
   margin-bottom: 10%;
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
     font-size: 30px;
   }
 `;

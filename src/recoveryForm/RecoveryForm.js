@@ -6,7 +6,7 @@ import {
   Form,
   Label,
   Input,
-} from "../loginForm/loginForm.styled";
+} from "../atoms/form.styled.js";
 import {
   StyledSelect,
   customStyles,

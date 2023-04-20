@@ -1,39 +1,37 @@
-# Desafío de código
+# Code Challenge
 
-En este proyecto se realizó una web responsive para una aplicación bancaria siguiendo los [requerimientos](https://docs.google.com/document/d/1TwYAkyg5cQlzIUwd2JgdbxYnxAIbekJP-6tqP_EbcHc/edit#) y los [diseños provistos](https://www.figma.com/file/23wUs8klLodiU0IvJVGXpx/). Consiste de una primera vista simulando un form de Login, otra vista para Recuperación de contraseña y dos más básicas implementadas para el Home y para la confirmación de recuperación de los datos.
+In this project, a responsive web application for a banking app was created following the <a href="./public/instructions/Code Challenge for UI Devs - Login.pdf">requirements</a> and the designs provided for <a href="./public/instructions/designs desktop views.pdf">desktop</a>, <a href="./public/instructions/designs mobile views.pdf">mobile view</a> and their <a href="./public/instructions/designs components.pdf">components</a>. It consists of a first view simulating a Login form, another view for password recovery, and two basic views implemented for the Home and for the confirmation of data recovery.
 
 
-## Herramientas técnicas aplicadas
+## Technical Resources
 
-- Para la creación del proyecto básico se utilizó la funcionalidad de `create-react-app` 
-- Para la navegación de páginas `react-router-dom`
-- Componentes funcionales con `react`
-- Estilos implementados con `styled-components` y `css`
-- Iconos obtenidos desde `material-ui`
-- Tipografía obtendida desde `fonts.google`
-- "Formularios controlados" en sus estados en `react`
-- Utilización de media queries para responsiveness
-- Responsiveness implementado únicamente para pantalla chica, smartphone, con max-width de 480px según diseños
-- Aplicación de criterios de accesibilidad. Testeado con Voice Over screen reader y AxeDev tools, extensión de Chrome
+- The `create-react-app` functionality was used to create the basic project
+- `react-router-dom` was used for page navigation
+- Functional components were created with `react`
+- Styles were implemented using `styled-components` and `css`
+- Icons were obtained from `material-ui`
+- Typography was obtained from `fonts.google`
+- "Controlled forms" in their states in `react`
+- Media queries were used for responsiveness
+- Responsiveness was implemented for small screen devices with a max-width of 768px 
+- Accessibility criteria applied. Tested with Voice Over screen reader and AxeDev tools, a Chrome extension
 
-## Instalación
 
-Una vez clonado el repositorio y parado en la raíz del proyecto instalar las dependencias corriendo `npm i`
+## Installation
 
-## `npm start`
+Once the repository is cloned and standing in the project root, install dependencies by running npm i
 
-Correrá la aplicación en el modo desarrollador. Luego abrir [http://localhost:3000](http://localhost:3000) en el navegador.
+##  `npm start`
 
-### Usuario registrado
+Runs the app in the development mode. Open http://localhost:3000 in a browser.
 
-Para simular el login se agregó un usuario hard codeado, utilizar esos datos para acceder:
+## Registered User
+
+To simulate login, a hard-coded user was added. Use these credentials to access:
 {
-      name: "pepe",
-      pass: "hola"
+name: "pepe",
+pass: "hola"
 }
-
-
-
 
 
 

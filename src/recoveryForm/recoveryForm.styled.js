@@ -49,7 +49,7 @@ export const BtnContainer = styled.div`
   width: 100%;
   justify-content: space-around;
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
     margin-top: 20%;
   }
 

@@ -1,16 +1,23 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  FormContainer,
-  FormTitle,
-  Form,
-  Label,
-  Input,
+  // FormContainer,
+  // FormTitle,
+  // Form,
+  // Label,
+  // Input,
   InputAndIconCtnr,
   SubmitButton,
   StyledLink,
   RecoverPassLink,
 } from "./loginForm.styled";
+import {
+  FormContainer,
+  FormTitle,
+  Form,
+  Label,
+  Input,
+} from "../atoms/form.styled.js";
 import AlertToast from "../alertToast/AlertToast";
 import InputAlert from "../inputAlert/inputAlert";
 import VisibilityIcon from "@mui/icons-material/Visibility";
@@ -29,8 +36,8 @@ const LoginForm = () => {
   const [missingUser, setMissingUser] = useState(false);
   const [missingPass, setMissingPass] = useState(false);
   const navigate = useNavigate();
-  const columnElm = document.getElementById('firstColContent');
-  const bcndImageElm = document.getElementById('imgBcnd');
+  const columnElm = document.getElementById("firstColContent");
+  const bcndImageElm = document.getElementById("imgBcnd");
 
   // sets user typed name
   const handleName = (event) => {
@@ -57,9 +64,9 @@ const LoginForm = () => {
 
   // removes class styles for error
   const handleClick = () => {
-    columnElm.classList.remove('colErrorStyles')
-    bcndImageElm.classList.remove('imgBcndErrorStyles')
-  }
+    columnElm.classList.remove("colErrorStyles");
+    bcndImageElm.classList.remove("imgBcndErrorStyles");
+  };
 
   useEffect(() => {
     // hardcoded registered user
@@ -89,7 +96,7 @@ const LoginForm = () => {
     hardcodedUser.name === submit.name && hardcodedUser.pass === submit.pass
       ? validated()
       : inValid();
-      /* eslint-disable */
+    /* eslint-disable */
   }, [submit]);
 
   // reset variables to default values
@@ -101,25 +108,28 @@ const LoginForm = () => {
 
   // adds classes to give error styles
   useEffect(() => {
-   const addClasses = () => {
-    columnElm.classList.add('colErrorStyles')
-    bcndImageElm.classList.add('imgBcndErrorStyles')
-   }
-   const removeClasses = () =>{
-    columnElm && columnElm.classList.contains('colErrorStyles') && columnElm.classList.remove('colErrorStyles')
-    bcndImageElm && bcndImageElm.classList.contains('imgBcndErrorStyles') && bcndImageElm.classList.remove('imgBcndErrorStyles')
-   }
-    error ?  addClasses() : removeClasses()
+    const addClasses = () => {
+      columnElm.classList.add("colErrorStyles");
+      bcndImageElm.classList.add("imgBcndErrorStyles");
+    };
+    const removeClasses = () => {
+      columnElm &&
+        columnElm.classList.contains("colErrorStyles") &&
+        columnElm.classList.remove("colErrorStyles");
+      bcndImageElm &&
+        bcndImageElm.classList.contains("imgBcndErrorStyles") &&
+        bcndImageElm.classList.remove("imgBcndErrorStyles");
+    };
+    error ? addClasses() : removeClasses();
     /* eslint-disable */
   }, [error]);
 
   return (
     <>
       <FormContainer>
-        
         <Form onSubmit={handleSubmit}>
           <FormTitle>Iniciá sesión</FormTitle>
-        {error && !validatedUser && <AlertToast />}
+          {error && !validatedUser && <AlertToast />}
           <Label htmlFor="nameInput">
             Usuario <span>&#42;</span>
           </Label>
