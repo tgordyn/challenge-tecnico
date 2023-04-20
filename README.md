@@ -28,10 +28,10 @@ Runs the app in the development mode. Open http://localhost:3000 in a browser.
 ## Registered User
 
 To simulate login, a hard-coded user was added. Use these credentials to access:
-{
-name: "pepe",
-pass: "hola"
-}
+    {
+        name: "pepe",
+        pass: "hola"
+    }
 
 ## Project Screen Shots
 
