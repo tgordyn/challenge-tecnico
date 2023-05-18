@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import LoginForm from "./loginForm/LoginForm";
 import RecoveryForm from "./recoveryForm/RecoveryForm";
 import ConfirmationContent from "./confirmationContent/ConfirmationContent";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
